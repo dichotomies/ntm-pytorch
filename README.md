@@ -40,13 +40,21 @@ NeuralTM(
 
 # Verification of Functionality
 
-Inputs and outputs, add and read vectors, read and write weightings:
+## Add and read vectors, read and write weightings
 
-![](https://raw.githubusercontent.com/dichotomies/ntm-pytorch/master/results/verification.png)
+- top: input and output.
 
-Training the NTM with sequences of length up to 20. Testing its generelization on sequences with length 10, 20, 60, 100:
+- middle: add and read vectors
 
-![](https://raw.githubusercontent.com/dichotomies/ntm-pytorch/master/results/generalization.png)
+- bottom: write and read weightings
+
+![Verification of read and write mechanisms.](https://raw.githubusercontent.com/dichotomies/ntm-pytorch/master/results/verification.png)
+
+## Generalization
+
+Training the NTM with sequences of length up to 20. Testing its generalization ability on sequences with length 10, 20, 60, 100:
+
+![Verification of generalization ability.](https://raw.githubusercontent.com/dichotomies/ntm-pytorch/master/results/generalization.png)
 
 # Reproducing the Results
 

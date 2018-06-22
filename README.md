@@ -8,7 +8,9 @@ This repo shows the fundamental mechanisms of neural networks that utilize exter
 **Overview of Repository**
 
 `dataloader`: producing input and target sequences that we feed into the NTM for training it to solve the copy task.
+
 `checkpoints`: checkpoints for models that were trained with up to 100000 sequences. 
+
 `ntm`: NTM implementation consisting of `controller`, `head` and `ntm`.
 
 **Reproducing the Results**

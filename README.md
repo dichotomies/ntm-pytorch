@@ -1,5 +1,5 @@
 
-This project shows the fundamental mechanisms of neural networks that utilize external memory on the basis of NTMs.
+This project shows the fundamental mechanisms of neural networks that utilize external memory on the basis of [NTMs](https://arxiv.org/pdf/1410.5401.pdf) (as introduced by Google DeepMind).
 
 Verified setup for training and reproducing the results: python 3.5.2, torch 0.4.0, numpy 1.14.3.
 
